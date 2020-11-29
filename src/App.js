@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Title from './components/title';
+import Side from './components/side';
+import Job from './components/job';
+import Other from './components/other';
+import Master from './components/master';
+import Face from './components/face';
 
 function App() {
-  return (
+
+  
+   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="sidebar">
+     <Side /> 
+     </div>
+     <div>
+     <Title />
+      </div>
+
+     
+      <div className= "JobDes" >
+      <Job name = "Master" job = "Chemical Tanker" ></Job>
+      </div>
+      
+      <div className= "Other">
+        <Other name = "Master" job = "Chemical Tanker" post= "Posted: 20 Nov 2020"></Other>
+      </div>
+      <div>
+        <Master name = "Master" job = "Chemical Tanker"/>
+      </div>
+      <div><Face></Face></div>
     </div>
   );
 }

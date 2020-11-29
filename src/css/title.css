@@ -1,0 +1,57 @@
+.title{
+    margin-left: 275px;
+    align-items: flex;
+    align-content: space-between;
+    background-color: white;
+}
+#left{
+    width: 140px;
+    height: 40px;
+    padding-top: 27px;
+    color: black;
+
+}
+#middle{
+    width: 500px;
+    height: 57px;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.midA {
+    color: rgb(61, 60, 60);
+    height: 45px;
+    padding-top: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.mailunread{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(24, 117, 224);
+    position: absolute;
+    font-size: xx-small;
+    font-weight: bold;
+    left: 1320px;
+    top: 90px;
+}
+
+/* h4:hover{
+color: rgb(4, 112, 184);
+border-bottom: 2px solid rgb(4, 112, 184) ;
+} */
+#right{
+    display: flex;
+    width: 120px;
+    height: 57 px;
+    margin-left: 80px;
+    padding-top: 22px;
+    font-size: 25px;
+    }

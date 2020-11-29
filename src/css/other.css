@@ -1,0 +1,78 @@
+.box1{
+    width: 230px;
+    height: 360px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: 500;
+    color: rgb(73, 71, 71);
+}
+.box2{
+    width: 80px;
+    height: 70px;
+    margin-top: 15px;
+    text-align: left;
+    
+    position: absolute;
+    bottom: 0px;
+    top: 56px;
+
+}
+.box3{
+    width: 130px;
+    height: 70px;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 70px;
+    position: absolute;
+    bottom: 0.5px;
+    top: -8px;
+    line-height: 20px;
+    font-size: small;
+}
+.outerbox{
+    width: 200px;
+    height: 140px;
+    border-bottom: 2px solid gray;
+    position: absolute;
+    bottom: -15px;
+    top: -18px;
+    margin-left: 25px;
+}
+
+.outerbox1{
+    width: 200px;
+    height: 140px;
+    border-bottom: 2px solid gray;
+    position: absolute;
+    bottom: 15px;
+    top: 65px;
+    margin-left: 25px;
+}
+.outerbox2{
+    width: 200px;
+    height: 140px;
+    border-bottom: 2px solid gray;
+    position: absolute;
+    bottom: 15px;
+    bottom: 15px;
+    top: 150px;
+    margin-left: 25px;
+}
+.outerbox3{
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    bottom: 15px;
+    top: 230px;
+    margin-left: 25px;
+}
+.spread{
+    width: 200px;
+    height: 10px;
+    position: absolute;
+    top: 380px;
+    margin-left: 25px;
+    display: flex;
+    margin-left: 120px;
+}

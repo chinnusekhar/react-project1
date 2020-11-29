@@ -1,0 +1,30 @@
+.job1{
+    color: rgb(73, 71, 71);
+    font-weight: 600;
+}
+.job{
+    position:absolute;
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    top: 60px; 
+}
+
+.main{
+    width: 930px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    border-bottom:1px solid gray;
+    font-size: 12PX;
+    font-weight: bold;
+    color: gray;
+  }
+  #sub{
+   margin-left: 0px;
+   margin-right: 20px;
+   height: 28px;
+   text-decoration: none;
+  }

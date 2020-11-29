@@ -1,0 +1,22 @@
+.face{
+        width:250px;
+        height:80px;
+        position: absolute;
+        left: 1130px;        
+        top:300px;
+        background-color: white;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        display: flex;
+        
+}
+ .face a{
+    color: #1357a5;
+    text-decoration: none;
+     font-size: 12px;
+     margin-left: 20px;
+     text-align: center;
+     margin-top: 10px;
+     font-weight: 500;
+    }

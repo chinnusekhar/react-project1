@@ -1,0 +1,45 @@
+.job1{
+    color: rgb(73, 71, 71);
+    font-weight: 600;
+}
+.job{
+    position:absolute;
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    top: 60px; 
+}
+
+.about{
+    color: gray;
+    width:580px;
+    border-bottom: 1px solid grey;
+    height: 35px;
+    display: flex;
+    margin-left: 35px;
+    font-size: small;
+        }
+.about1{
+    color: gray;
+    width:580px;
+    border-bottom: 1px solid grey;
+    height: 70px;
+    display: flex;
+    margin-left: 35px;
+    font-size: small;
+    padding-bottom: 10px;
+    line-break: normal;
+    margin-top: 1%;
+   
+        }
+.about2{
+    color: gray;
+    width:580px;
+    height: 120px;
+    display: flex;
+    margin-left: 35px;
+    font-size: small;
+    margin-top: 1%;
+    
+
+}
